@@ -2,7 +2,7 @@
 from fastapi import FastAPI, Request
 from typing import List, Dict, Any
 from mangum import Mangum
-mport logging
+import logging
 
 # Configuration du logging pour déboguer
 logging.basicConfig(level=logging.INFO)
