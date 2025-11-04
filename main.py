@@ -1,4 +1,4 @@
-import uvicorn
+# import uvicorn
 from fastapi import FastAPI, Request
 from typing import List, Dict, Any
 
@@ -29,5 +29,5 @@ async def clear_alerts():
     received_alerts.clear()
     return {"status": "cleared"}
 
-if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+# if __name__ == "__main__":
+#     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
