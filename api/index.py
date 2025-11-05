@@ -7,7 +7,8 @@ from fastapi import FastAPI, Request
 # logging.basicConfig(level=logging.INFO)
 # logger = logging.getLogger(__name__)
 
-app = FastAPI(title="Test Alerts Receiver")
+app = FastAPI()
+# app = FastAPI(title="Test Alerts Receiver")
 
 # Stockage des alertes reçues
 # received_alerts: List[Dict[str, Any]] = []
