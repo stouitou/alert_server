@@ -1,7 +1,6 @@
 # import uvicorn
 from fastapi import FastAPI, Request
 # from typing import List, Dict, Any
-from mangum import Mangum
 # import logging
 
 # # Configuration du logging pour déboguer
@@ -43,8 +42,6 @@ def home():
 #     received_alerts.clear()
 #     logger.info(f"Cleared {count} alerts")
 #     return {"status": "cleared", "count": count}
-
-handler = Mangum(app)
 
 # if __name__ == "__main__":
 #     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
