@@ -1,4 +1,3 @@
-# import uvicorn
 from fastapi import FastAPI, Request
 # from typing import List, Dict, Any
 # import logging
@@ -43,6 +42,3 @@ def home():
 #     received_alerts.clear()
 #     logger.info(f"Cleared {count} alerts")
 #     return {"status": "cleared", "count": count}
-
-# if __name__ == "__main__":
-#     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
